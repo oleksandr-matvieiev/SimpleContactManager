@@ -41,13 +41,13 @@ public class Main {
                     System.out.println("Contact added");
                     break;
                 case 2:
-                    System.out.println("//////////////////////////////////////");
+                    System.out.println("///////////////////////////////////////");
                     List<Contact> contactList = contactManager.viewContacts();
                     for (int i = 0; i < contactList.size(); i++) {
                         System.out.println(i + 1 + ". " + contactList.get(i).toString());
 
                     }
-                    System.out.println("//////////////////////////////////////");
+                    System.out.println("///////////////////////////////////////");
                     break;
                 case 3:
                     System.out.println("Enter num of contact");

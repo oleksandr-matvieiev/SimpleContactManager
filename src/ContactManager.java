@@ -31,7 +31,7 @@ public class ContactManager {
     public void deleteContact(int i) {
         if (i >= 0 && i < contactList.size()) {
             contactList.remove(i);
-            System.out.println("Contact removed");
+            System.out.println("Contact removed!");
         } else {
             System.out.println("Wrong num!");
         }
